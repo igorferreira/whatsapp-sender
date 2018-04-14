@@ -46,7 +46,7 @@ function send()
 		}
 		else
 		{
-			window.location = "https://api.whatsapp.com/send?text="+message+"&phone="+phone;
+			window.location = "https://web.whatsapp.com/send?text="+message+"&phone="+phone;
 			// open whatsapp web to send message for desktop
 		}
 	}
